@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+    background-color: #f7f5f5;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #7743DB;
+}
+.container h1{
+    font-size: 40px;
+    text-align: center;
+}
+.container form{
+    width: 90%;
+    height: 40%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #47B5FF;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+}
+.container form label{
+    font-size: 30px;
+    color: #080808;
+}
+.container form input{
+    color: #7743DB;
+    width: 50%;
+    margin: 10px 0; 
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.container form .btn{
+    width: 50%;
+    margin: 10px 0; 
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    border-color: #7743DB;
+    border-radius: 5px;
+    background-color: #7743DB;
+}
+.container form .btn:hover{
+    background: #5d0df1;
+    cursor: pointer;
+}
+.container .result-container{
+    width: 90%;
+    height: 40%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #47B5FF;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+}
+.container .result-container h2{
+    font-size: 30px;
+    color: #080808;
+}
+.container .result-container span{
+    padding: 3px 10px;
+    font-size: 26px;
+    border-radius: 5px;
+    color: #7743DB;
+    background-color: #fff;
+}
